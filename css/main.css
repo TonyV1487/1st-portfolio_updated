@@ -1,0 +1,108 @@
+/* header css */
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.button {
+  background-color: #25274d;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+.button:hover {
+  background-color: #25274d;
+  color: #2e9cca;
+}
+.button-flex {
+  display: flex;
+}
+.header {
+  background-color: #25274d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  font-family: "Satisfy", cursive;
+  font-size: x-large;
+  justify-content: center;
+}
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+/* content css */
+html,
+body {
+  height: 100%;
+}
+.about-description {
+  font-size: large;
+}
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.headshot {
+  float: left;
+  max-width: 100%;
+  padding-right: 24px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.portfolio-image {
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: space-evenly;
+  margin: 12px;
+  width: 200px;
+}
+.section-content {
+  background-color: lightgray;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex: 1 0 auto;
+}
+.section-main {
+  background-color: #464866;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+}
+
+/* footer css */
+.footer {
+  background-color: #25274d;
+  color: white;
+  padding: 24px;
+  flex-shrink: none;
+}
+
+/* Media Inquiries */
+
+/* For mobile phones: */
+
+@media screen and (max-width: 768px) {
+  /* The wrapper's width will be 600px */
+  .container-fluid {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  h1 {
+    font-size: large;
+  }
+  .about-description {
+    font-size: medium;
+  }
+}
